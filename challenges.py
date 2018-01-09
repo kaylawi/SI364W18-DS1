@@ -11,9 +11,12 @@ def index():
 # Write a return statement such that it displays 'Welcome to <course_name>'
 # when you navigate to localhost:5000/course/<course_name>
 # Remember to get rid of the pass statement
+
 @app.route('/course/<course>')
 def course(course):
-   pass
+	return 'Welcome to course'
+	#return 'Welcome to <course_name>'
+   # pass
 
 # Task 3.1
 # Edit the HTML form such that form data is sent to localhost:5000/result using POST method
